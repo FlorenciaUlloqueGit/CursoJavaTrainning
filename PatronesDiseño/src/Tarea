@@ -1,0 +1,26 @@
+Preguntas de esta tarea
+¿Qué es un patrón de diseño? explique brevemente
+Los patrones de diseño son unas técnicas para resolver problemas comunes en el desarrollo de software y es una solución
+a un problema de diseño. Se trata de plantillas que identifican problemas en el sistema y proporcionan soluciones
+ apropiadas a problemas generales a los que se han enfrentado los desarrolladores durante un largo periodo de tiempo,
+  a través de prueba y error.
+
+
+
+¿Para que nos sirve un patrón de diseño? explique brevemente.
+Ayudan a enfrentar problemas de desarrollo relativos al software y a estar seguro de la validez del código realizado,
+ ya que son soluciones que funcionan y han sido probados por muchísimos desarrolladores, siendo menos propensos a errores.
+
+Nombre los tres tipos o categorías de patrones de diseño e indique uno o dos patrones en cada uno,
+explicando brevemente el patrón (máx. 2 líneas).
+
+- Patrón creacional : ejemplo singleton (permite que se instancie un objeto solo una vez) y Abstract factory
+(un objeto crea familias de objetos que se relacionan gracias a las interfaces y herencia. Hay fabrica de objetos y
+ están los objetos mismos.)
+
+- Patrón estructural : ejemplo es el patrón decorator ( un objeto puede tener diferentes componentes y se agregan
+funcionalidades dinámicas al objeto pero sin usar herencia) y el patrón Composite (permite crear objetos completos a
+partir de otros más simples mediante una clase abstracta)
+- Patrón de comportamiento: ejemplo el patrón observer (define dependencia de objetos de uno a muchos,
+hay un objeto que es observado por otros objetos. este notifica cambios y mensajes a los observadores,
+ define la forma en la que los objetos se comunican)

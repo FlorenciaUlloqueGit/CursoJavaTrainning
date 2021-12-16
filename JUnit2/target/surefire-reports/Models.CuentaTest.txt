@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: Models.CuentaTest
+-------------------------------------------------------------------------------
+Tests run: 58, Failures: 6, Errors: 0, Skipped: 3, Time elapsed: 5.851 s <<< FAILURE! - in Models.CuentaTest
+testDebitoCuentaCsvFileSource2{String, String, String, String}[1]  Time elapsed: 0.111 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Andres> but was: <John>
+	at Models.CuentaTest.testDebitoCuentaCsvFileSource2(CuentaTest.java:337)
+
+testDebitoCuentaCsvFileSource2{String, String, String, String}[4]  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Francisco> but was: <Giuliana>
+	at Models.CuentaTest.testDebitoCuentaCsvFileSource2(CuentaTest.java:337)
+
+testDebitoCuentaCsvSource2{String, String, String, String}[1]  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Andres> but was: <John>
+	at Models.CuentaTest$pruebasParametrizadasTest.testDebitoCuentaCsvSource2(CuentaTest.java:413)
+
+testDebitoCuentaCsvSource2{String, String, String, String}[4]  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Francisco> but was: <Giuliana>
+	at Models.CuentaTest$pruebasParametrizadasTest.testDebitoCuentaCsvSource2(CuentaTest.java:413)
+
+testDebitoCuentaCsvSource{String, String}[6]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at Models.CuentaTest$pruebasParametrizadasTest.testDebitoCuentaCsvSource(CuentaTest.java:381)
+
+testDebitoCuentaCsvFileSource{String}[7]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at Models.CuentaTest$pruebasParametrizadasTest.testDebitoCuentaCsvFileSource(CuentaTest.java:394)
+
