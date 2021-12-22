@@ -1,0 +1,1 @@
+insert into clientes (id, nombre, apellido, email, create_at) values( 1, 'Florencia', 'Ulloque', 'fulloque@gmaio.com', '2020-03-06');
